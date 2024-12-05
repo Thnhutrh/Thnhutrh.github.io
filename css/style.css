@@ -227,46 +227,45 @@ main {
 
 .form-container {
     display: flex;
-    justify-content: center;  
+    justify-content: center; 
     align-items: center;  
     padding: 30px;
 }
 
-/* Style cho form */
 .order-form {
     background-color: #808ac4;
-    padding: 50px;
+    padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(32, 31, 89, 0.1);
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     text-align: center;
-    border: 2px solid #334e7a;
+    border: 2px solid #334e7a; 
+    font-family:'Cormorant Garamond', sans-serif;
 }
 
 
 .order-form label {
     display: block;
+    font-size:20px;
     margin-top: 15px;
     font-weight: bold;
-    color: #6a1b9a; 
+    color: #ffffff;
     text-align: left;
 }
 
-/* Style cho input vÃ  select */
 .order-form input,
 .order-form select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ba68c8; /* Viá»n tÃ­m */
+    border: 1px solid #9aa5e0;
     border-radius: 5px;
     box-sizing: border-box;
 }
 
-/* Style cho button */
 .order-form button {
-    background-color: #8e24aa; /* MÃ u tÃ­m */
+    background-color: #334e7a; 
     color: white;
     border: none;
     padding: 12px;
@@ -274,10 +273,11 @@ main {
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
-    font-size: 16px;
+    font-size: 20px;
+    font-family:'Cormorant Garamond', sans-serif;
     transition: background-color 0.3s ease;
 }
 
 .order-form button:hover {
-    background-color: #6a1b9a; /* MÃ u tÃ­m Ä‘áº­m hÆ¡n khi hover */
+    background-color: #263e64; 
 }
