@@ -215,6 +215,10 @@ main {
     margin: 0 0 10px;
 }
 
+.add-to-cart {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 15px;
+}
 .add-to-cart:hover{
     background-color: #5c69af;
 }
